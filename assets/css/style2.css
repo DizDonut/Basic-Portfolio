@@ -1,0 +1,147 @@
+html{
+  background-image: url("http://tdwhs.nwasco.k12.or.us/staff/lewing/resources/design/iMovie_ppt/Textures/Light_Gray_Mottle.jpg");
+}
+
+#container{
+  padding-bottom: 100%;
+}
+
+#about-me,#connect{
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+#navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 43px;
+  border-bottom: 3px solid #ccc;
+  z-index: 100000;
+}
+
+#name{
+  text-align: center;
+  background-color: #4aaaa5;
+  position: absolute;
+  top: 0%;
+  color: #fff;
+  left: 5%;
+  padding: 14px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#nav-links{
+  width: 215px;
+  padding: 10px;
+  position: absolute;
+  right: 75px;
+  top: 25px;
+  margin: 0;
+  text-align: center;
+  font-size: 65%;
+}
+
+#About,#Portfolio{
+  border-right: 2px solid darkgray;
+}
+
+#About,#Portfolio,#Contact{
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#bio-image{
+  margin-top: 5px;
+  width: 55%;
+  display: inline;
+  float: left;
+  padding-right: 10px;
+  position: relative;
+}
+
+#about-me{
+  position: absolute;
+  top: 20%;
+  width: 55%;
+  padding: 20px;
+  left: 15px;
+  margin: 0;
+}
+
+p{
+  display: inline;
+  color: #777777;
+}
+
+#connect{
+  position: absolute;
+  width: 25%;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: #4aaaa5;
+  top: 20%;
+  right: 5%;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#git,#linkedIn,#instagram{
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  margin: 0;
+  opacity: 0.5;
+}
+
+#git:hover,#linkedIn:hover,#instagram:hover{
+  opacity: 1.0;
+}
+
+#footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: #fff;
+  border-top: 3px solid #666;
+  width: 100%;
+  padding: 10px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#Title,#Title2{
+  position: absolute;
+  margin-top: -10px;
+  padding-top: 5px;
+  font-weight: bold;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #4aaaa5;
+}
+
+#hr-Title{
+  margin-top: 25px;
+}
+
+a:link, a:visited,a:active{
+  text-decoration: none;
+  color: #ccc;
+}
+
+a:hover{
+  text-shadow: #ccc 1px 0 10px;
+  color: #98AFC7
+}
+
+#PortfolioPage{
+  position: absolute;
+  top: 20%;
+  width: 55%;
+  padding: 20px;
+  left: 15px;
+  margin: 0;
+}
